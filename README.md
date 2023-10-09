@@ -33,8 +33,8 @@
 * Если использовать вместо значения метрики детектора всю картинку, то средние значение IoU будет 0.05
 
 
-| Методы   | Ссылка на решение | Результат | Скорость выполнения |
-|----------|-------------------|-----------|---------------------|
-| Sobel, morphological, threshold, findContours                | [ноутбук](https://colab.research.google.com/drive/1jLoLhwLoiuEl7kbHgRL-dhrnMXl-1vUr?usp=sharing)           | 0,9068 |1,6 С/Мп |
-| Sobel, morphological, threshold, GaussianBlur, binary_closing| [ноутбук](https://colab.research.google.com/drive/1JobD_DqQEZG-Pp-Ig2LDvTboh7xykv3T#scrollTo=HBMzR7U74fTz) | 0,8380 |1,4 С/Мп |
-| Laplacian, threshold, Morphological, GaussianBlur            | [ноутбук](https://colab.research.google.com/drive/1-fgFF5tkys7SLSuWoNv1q6PvDPCR2l3z?usp=sharing)           | 0,8188 |1,3 C/Мп |
+| Методы   | Ссылка на решение | Результат |
+|----------|-------------------|-----------|
+| SIFT, BFmatcher, bounding box(perspectiveTransform) | [ноутбук](https://colab.research.google.com/drive/1y9YbXHIKaEBJSr307Py4fYpkMHYHXRYB?usp=sharing)                           | 0,2760 |
+| SIFT, BFmatcher                                     | [ноутбук](https://colab.research.google.com/drive/1TsclE90lUuy-jvIUs7UlAM17kaWzmReB?usp=sharing)                           | 0,6763 |
+| Laplacian, threshold, Morphological, GaussianBlur   | [ноутбук](https://colab.research.google.com/drive/1Hc45NxvEdC1FmbQlSfieAQYj1bHz82xN?hl=ru#scrollTo=DOAwwF7sSchd)           | 0,1115 |
