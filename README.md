@@ -37,4 +37,4 @@
 |----------|-------------------|-----------|
 | SIFT, BFmatcher, bounding box(perspectiveTransform) | [ноутбук](https://colab.research.google.com/drive/1y9YbXHIKaEBJSr307Py4fYpkMHYHXRYB?usp=sharing)                           | 0,2760 |
 | SIFT, BFmatcher                                     | [ноутбук](https://colab.research.google.com/drive/1TsclE90lUuy-jvIUs7UlAM17kaWzmReB?usp=sharing)                           | 0,6763 |
-| Laplacian, threshold, Morphological, GaussianBlur   | [ноутбук](https://colab.research.google.com/drive/1Hc45NxvEdC1FmbQlSfieAQYj1bHz82xN?hl=ru#scrollTo=DOAwwF7sSchd)           | 0,1115 |
+| MatchTemplate                                       | [ноутбук](https://colab.research.google.com/drive/1Hc45NxvEdC1FmbQlSfieAQYj1bHz82xN?hl=ru#scrollTo=DOAwwF7sSchd)           | 0,1115 |
